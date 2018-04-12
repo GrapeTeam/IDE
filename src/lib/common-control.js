@@ -1,6 +1,6 @@
 class Control {
     constructor() {
-
+        this.col = 3;
     }
 }
 

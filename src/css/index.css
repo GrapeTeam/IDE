@@ -285,3 +285,19 @@ header .header-btn .save {
     position: relative;
     box-shadow: 0 0 17px 0 rgba(64, 64, 64, 0.48);
 }
+
+.clone-item {
+    position: fixed;
+    z-index: 10;
+    float: none !important;
+    margin: 0 !important;
+    opacity: .4 !important;
+    width: 60px;
+    height: 60px;
+    border: 1px #ddd solid;
+    border-radius: 5px;
+    -webkit-transition: border .2s;
+    -o-transition: border .2s;
+    transition: border .2s;
+    opacity: .7;
+}

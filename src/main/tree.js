@@ -19,6 +19,8 @@ class Tree {
     constructor() {
         this.box = $(".component-list");
     }
+
+    
 }
 
 export default new Tree();
