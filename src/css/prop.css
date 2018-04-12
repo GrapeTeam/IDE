@@ -1,0 +1,12 @@
+.nav-pills>li+li{margin-left:0;}
+.nav-tabs>li>a{margin-right:0;}
+.seo{padding:0;}
+.seoDiv{border:1px solid #ddd;}
+.seoDiv>p{margin-top:10px;}
+.arrow{width:0;height:0; border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 10px solid #000000;display:inline-block;transform:rotateZ(270deg);}
+.arrow-transform{transform:rotateZ(0deg);}
+.collapse.in{overflow:auto;height:314px;}
+.mar-bottom{margin-bottom:10px;}
+button, input, select, textarea{width:100%}
