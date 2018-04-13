@@ -3,11 +3,6 @@
     padding: 5px 10px;
 }
 
-.grid-item.active {
-    height: auto;
-    display: block !important;
-}
-
 .grid-item .item {
     animation-delay: .2s;
     -webkit-box-shadow: 0 0 5px 3px rgba(185, 185, 185, 0.13);
@@ -18,4 +13,8 @@
     transition: all .1s;
     width: 100%;
     height: 100%;
+}
+
+.grid-line {
+    overflow: hidden;
 }

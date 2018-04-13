@@ -31,15 +31,15 @@ class Tool {
         for (var i = 0; i < config.length; i++) {
             var wrap = this.renderCategory(config[i]);
             for (var n = 0; n < config[i].components.length; n++) {
-                this.renderItem(wrap, new config[i].components[n]());
+                this.renderItem(wrap, config[i].components[n]);
             }
         }
     };
 
     renderItem(wrap, com) {
         var item = $(`<div class="item">
-                        <div class="icon" style="background:url(${com.icon}) no-repeat center"></div>
-                        <div class="name">${com.name}</div>
+                        <div class="icon" style="background:url(${com.getIcon()}) no-repeat center"></div>
+                        <div class="name">${com.getName()}</div>
                     </div>`)
         wrap.append(touch.init(item, com));
     };

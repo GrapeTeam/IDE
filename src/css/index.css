@@ -261,6 +261,7 @@ header .header-btn .save {
     background: #f7f8fa;
     transition: all .2s;
     z-index: 12;
+    padding-top: 40px;
 }
 
 .content-box .window {

@@ -6,12 +6,19 @@ class Demo extends base {
     constructor() {
         super();
         this.icon = icon;
-        this.name = "按钮";
-        this.col = 5;
+        this.col = 3;
     };
 
-    getDom() {
+    static getDom() {
         return $(`<button class="btn btn-default">${this.name}</button>`);
+    };
+
+    static getIcon() {
+        return icon;
+    };
+
+    static getName() {
+        return "按钮";
     };
 }
 

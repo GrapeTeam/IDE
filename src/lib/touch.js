@@ -14,10 +14,6 @@ var Touch = function () {
         listener.push({ target: o, moveCallBack: mfn, dropCallBack: dfn, outCallBack: ofn });
     };
 
-    this.register = function (o, fn) {
-
-    };
-
     var touchWrap = function (v, c) {
         var o = v[0];
         active = false;
