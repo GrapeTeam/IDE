@@ -1,0 +1,68 @@
+*{margin:0;padding:0;}
+        .Emodal{
+            position:fixed;
+            left:0;
+            right:0;
+            top:0;
+            bottom:0;
+            background:rgba(0,0,0, .6);
+            z-index:999;
+        }
+        .Emodal-dialog{
+            width:80%;
+            margin: 100px auto 0;
+        }
+        .Emodal-content{
+            border:1px solid #aaa;
+            border-radius: 3px;
+            box-shadow:0 0 4px #aaa;
+            background:#fff;
+            padding:23px 23px 15px 23px;
+            position: relative;
+        }
+        .Eform-control{
+            width:49.5%;
+            height:30px;
+            outline:none;
+            border-radius: 3px;
+        }
+        .form-control option{
+        }
+        .btnClose{
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            border-radius: 15px;
+            width: 15px;
+            height: 15px;
+            line-height: 15px;
+            background: #999;
+            color: #fff;
+            text-align: center;
+            cursor: pointer;
+        }
+        .choice{text-align:center;}
+        .editor{
+            margin-top:10px;
+        }
+        .CodeMirror {
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+        }
+
+        .CodeMirror-scroll {
+            height: 330px;
+        }
+
+        .CodeMirror pre {
+            padding-left: 7px;
+            line-height: 1.25;
+        }
+        pre {
+            white-space: pre-wrap;
+            white-space: -moz-pre-wrap;
+            white-space: -pre-wrap;
+            white-space: -o-pre-wrap;
+            word-wrap: break-word;
+        }

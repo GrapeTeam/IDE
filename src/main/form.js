@@ -2,6 +2,7 @@ import $ from "jquery";
 import touch from "../lib/touch";
 import grid from "./grid";
 import prop from "./prop";
+import editor from "./editor";
 
 var config = [
     {
@@ -34,6 +35,10 @@ class Form {
         this.toolConfig = config;
         this.gridHeight = 50;
         prop.init(this);
+
+        $(".header-btn .deploy").click(function(){
+            editor.render();
+        });
     };
 
     registerTouchEvent() {
